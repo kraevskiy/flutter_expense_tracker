@@ -1,12 +1,10 @@
 import 'package:flutter/material.dart';
 
+import 'package:expense_tracker_app/expenses.dart';
+
 void main() {
   runApp(const MaterialApp(
     title: 'Expense Tracker',
-    home: Scaffold(
-      body: Center(
-        child: Text('Init App'),
-      ),
-    ),
+    home: Expenses(),
   ));
 }
